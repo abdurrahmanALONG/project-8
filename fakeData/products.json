@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1",
+    "name": "IRANI CHAK CABAB",
+    "price": 790,
+    "ratings": 4,
+    "img": "https://www.inlifehealthcare.com/wp-content/uploads/2017/03/National-Dish-Fish-Food-Photo.jpg"
+  },
+  
+  {
+    "id": "2",
+    "name": "SELMON CABAB",
+    "price": 2000,
+    "ratings": 4,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScbnoYoeBFzigeQY6B6b7qcBw8LqZ46zw5QA&usqp=CAU"
+  },
+  
+  {
+    "id": "3",
+    "name": "STEEMED FISH CARI",
+    "price": 350,
+    "ratings": 4,
+    "img": "https://us.123rf.com/450wm/prapstock/prapstock1904/prapstock190400002/123644787-steamed-sea-bass-fish-with-lemon-put-a-white-ceramic-dish-on-leather-floor-the-grid-pattern-.jpg?ver=6"
+  },
+  {
+    "id": "4",
+    "name": "ILISH DOM CARI",
+    "price": 700,
+    "ratings": 5,
+    "img": "https://nomadparadise.com/wp-content/uploads/2021/03/bangladeshi-food-01-1024x683.jpg.webp"
+  },
+  {
+    "id": "5",
+    "name": "DOM FISH CARI",
+    "price": 370,
+    "ratings": 5,
+    "img": "https://i.imgur.com/A9pSxGI.jpg"
+  },
+  {
+    "id": "6",
+    "name": "RUPCHADA CABAB",
+    "price": 530,
+    "ratings": 5,
+    "img": "https://media.houseandgarden.co.uk/photos/61894ab7f6acdd8ba4456689/4:3/w_644,h_483,c_limit/oct-07_malaysian-style-fish_b_646x646.jpg"
+  },
+  {
+    "id": "7",
+    "name": "JUCY FRIED FISH",
+    "price": 280,
+    "ratings": 4,
+    "img": "https://c8.alamy.com/comp/2AR4NE6/red-snapper-fish-dish-2AR4NE6.jpg"
+  },
+  {
+    "id": "8",
+    "name": "QARAY FISH",
+    "price": 340,
+    "ratings": 3,
+    "img": "https://c.ndtvimg.com/2021-02/qbkp4mcg_fish-curry_625x300_10_February_21.jpg"
+  },
+  {
+    "id": "9",
+    "name": "BOMBE FISH CARI",
+    "price": 270,
+    "ratings": 5,
+    "img": "https://nishkitchen.com/wp-content/uploads/2019/03/meen-mappas-1B-480x480.jpg"
+  },
+  {
+    "id": "10",
+    "name": "CHINGRI MAIAI",
+    "price": 230,
+    "ratings": 3,
+    "img": "https://realfood.tesco.com/media/images/Fish-Pie-Hero-4460ee3e-c659-4f53-a188-3947422ddc87-0-472x310.jpg"
+  },
+  {
+    "id": "11",
+    "name": "KASMIRI FISH VUNA",
+    "price": 250,
+    "ratings": 5,
+    "img": "https://img.onmanorama.com/content/dam/mm/en/food/kerala-kitchen/images/2019/9/13/meen-curry.jpg"
+  },
+  {
+    "id": "12",
+    "name": "ACHAR CARI FISH",
+    "price": 200,
+    "ratings": 4,
+    "img": "https://www.holidify.com/blog/wp-content/uploads/2016/09/Maccha-Ghanta.jpg"
+  }
+]
