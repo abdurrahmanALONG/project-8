@@ -1,0 +1,25 @@
+.Food-item{
+    display:  grid;
+    grid-template-columns: 4fr 1fr;
+}
+.foods{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+}
+
+.selection{
+    background-color: bisque;
+}
+.checker-btn{
+    width: 100%;
+}
+.clean-btn{
+    width: 100%;
+}
+.checker-btn:hover{
+    background-color: darkorange;
+ }
+ .clean-btn:hover{
+    background-color: darkorange;
+ }
