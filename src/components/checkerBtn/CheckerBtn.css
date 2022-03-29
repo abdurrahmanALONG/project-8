@@ -1,0 +1,12 @@
+.checker-btn{
+    width: 100%;
+}
+.clean-btn{
+    width: 100%;
+}
+.checker-btn:hover{
+    background-color: darkorange;
+ }
+ .clean-btn:hover{
+    background-color: darkorange;
+ }

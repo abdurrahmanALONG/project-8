@@ -1,12 +1,16 @@
 
 import React, { useEffect, useState } from 'react';
 import Foodproduct from '../FoodProduct/Foodproduct';
-// import Checker from '../Checker/Checker';
+import Checker from '../Checker/Checker';
+import CheckerBtn from '../checkerBtn/CheckerBtn';
+
 import './FoodItem.css';
 
 const FoodItem = () => {
    const  [ products, setProducts] = useState([]);
    const [cart, setCart] = useState ([]);
+   const [num, setNum] = useState([]);
+
 
 
    useEffect( () =>{
@@ -20,6 +24,12 @@ const FoodItem = () => {
       const newCart =[...cart, product];
       setCart(newCart);
     }
+    const chekerNumber= (product) =>{
+        const newNum = [...num, product];
+        setNum(newNum);
+        // console.log(newNum.length);
+    }
+  
 
   return (
     <div className="Food-item">
@@ -34,17 +44,23 @@ const FoodItem = () => {
         </div>
         <div  className="selection">
         <h2>Checker</h2>
-        {/* <div>
+        <div>
         {
           cart.map( carts =><Checker
             key ={carts.id}
           cart={carts}
           ></Checker>)
         }
-        </div> */}
+        </div>
         <div >
-        <button className='checker-btn'>Availablity Checking</button>
-        <button className='clean-btn'>Clean</button>
+            <h5>{cart.length}</h5>
+            {/* {
+                num.map( number =><CheckerBtn
+                     number={number.length}
+                     ></CheckerBtn>)
+            } */}
+         <button onClick={()=>chekerNumber(newNum.length)} className='checker-btn'>Availablity Checking</button>
+         <button className='clean-btn'>Clean</button>
         </div>
        
         </div>
