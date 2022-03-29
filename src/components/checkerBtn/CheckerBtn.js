@@ -6,7 +6,7 @@ const CheckerBtn = (props) => {
     console.log(props);
   return (
     <div className="CheckerBtn">
-          <h2>Checker</h2>
+          <h2>Selected Food</h2>
        
         </div>
        

@@ -51,10 +51,10 @@ const FoodItem = () => {
           ></Checker>)
         }
            <div> 
-         <button  className='checker-btn'>Availablity Checking</button>
-         <button className='clean-btn'>Clean</button>
+         <button  className='checker-btn'>CHOOSE 1 FOR ME</button>
+         <button className='clean-btn'>CHOOSE AGAIN</button>
         </div>
-       
+      
         </div>
     </div>
   );
