@@ -2,6 +2,7 @@
     display:  grid;
     grid-template-columns: 2, 1fr;
     text-align: center;
+  
 
 }
 .Checker img{

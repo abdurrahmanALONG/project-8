@@ -43,23 +43,15 @@ const FoodItem = () => {
         }
         </div>
         <div  className="selection">
-        <h2>Checker</h2>
-        <div>
+            <CheckerBtn></CheckerBtn>
         {
           cart.map( carts =><Checker
             key ={carts.id}
           cart={carts}
           ></Checker>)
         }
-        </div>
-        <div >
-            <h5>{cart.length}</h5>
-            {/* {
-                num.map( number =><CheckerBtn
-                     number={number.length}
-                     ></CheckerBtn>)
-            } */}
-         <button onClick={()=>chekerNumber(newNum.length)} className='checker-btn'>Availablity Checking</button>
+           <div> 
+         <button  className='checker-btn'>Availablity Checking</button>
          <button className='clean-btn'>Clean</button>
         </div>
        

@@ -6,9 +6,8 @@ const CheckerBtn = (props) => {
     console.log(props);
   return (
     <div className="CheckerBtn">
-        <div>
+          <h2>Checker</h2>
        
-        </div>
         </div>
        
     

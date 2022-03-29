@@ -10,5 +10,17 @@
 
 .selection{
     background-color: bisque;
+    /* position: sticky;
+    top: 0; */
 }
-
+/* .checker{
+    p
+} */
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+    }
+    .foods{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
